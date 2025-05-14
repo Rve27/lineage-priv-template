@@ -4,8 +4,10 @@
 
 1. Copy to $TOP/vendor/lineage-priv/keys
 2. cd $TOP/vendor/lineage-priv/keys
-3. ./keys.sh
-4. Profit
+3. ./make_key.sh releasekey 4096
+4. mv releasekey.{pk8,x509.pem} ../../../build/make/target/product/security/
+5. ./keys.sh
+6. Profit
 
 # Testing
 
